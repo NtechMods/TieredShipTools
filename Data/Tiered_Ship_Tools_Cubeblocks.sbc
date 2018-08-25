@@ -670,8 +670,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <SensorRadius>2.6</SensorRadius>
-	  <SensorOffset>0.6</SensorOffset>
+	  <SensorRadius>4.6</SensorRadius>
+	  <SensorOffset>0.2</SensorOffset>
 	  <PCU>160</PCU>
     </Definition>
 	
@@ -733,8 +733,8 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <SensorRadius>2.6</SensorRadius>
-	  <SensorOffset>0.6</SensorOffset>
+	  <SensorRadius>4.6</SensorRadius>
+	  <SensorOffset>0.2</SensorOffset>
 	  <PCU>120</PCU>
     </Definition>
 
@@ -797,7 +797,7 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
 	  <SensorRadius>2.6</SensorRadius>
-	  <SensorOffset>0.6</SensorOffset>
+	  <SensorOffset>0.2</SensorOffset>
 	  <PCU>120</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
@@ -845,7 +845,7 @@
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
 	  <SensorRadius>2.6</SensorRadius>
-	  <SensorOffset>0.6</SensorOffset>
+	  <SensorOffset>0.2</SensorOffset>
 	  <PCU>160</PCU>
     </Definition>
 <!-- End Tier Ship Tools -->
