@@ -1,11 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  
-<!--Small Ship Tiered Drills Start.--> 
-		<!--Small Ship Tier 1 Drill Definition Start-->
-		
- <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+
+    <!--Small Ship Tiered Drills Start.-->
+    <!--Small Ship Tier 1 Drill Definition Start-->
+
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>Small_Drill_Tier1</SubtypeId>
@@ -23,10 +24,10 @@
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="4" />
-		<Component Subtype="Octocore" Count="1" />
+        <Component Subtype="Octocore" Count="1" />
 
         <Component Subtype="Motor" Count="1" />
-		<Component Subtype="Octocore" Count="1" />
+        <Component Subtype="Octocore" Count="1" />
         <Component Subtype="Computer" Count="1" />
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
@@ -74,22 +75,22 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
-      
+
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <SensorRadius>1.7</SensorRadius>
       <SensorOffset>1</SensorOffset>
       <CutOutRadius>3.3</CutOutRadius>
       <CutOutOffset>0.8</CutOutOffset>
-      
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>240</PCU>
+      <PCU>240</PCU>
     </Definition>
 
-		<!--Small Ship Tier 2 Drill Definition Start-->
-		
- <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+    <!--Small Ship Tier 2 Drill Definition Start-->
+
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>Small_Drill_Tier2</SubtypeId>
@@ -107,9 +108,9 @@
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="14" />
-		<Component Subtype="Octocore" Count="2" />
+        <Component Subtype="Octocore" Count="2" />
         <Component Subtype="Motor" Count="1" />
-		<Component Subtype="Octocore" Count="2" />
+        <Component Subtype="Octocore" Count="2" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="SteelPlate" Count="22" />
       </Components>
@@ -149,16 +150,16 @@
       <SensorOffset>1.4</SensorOffset>
       <CutOutRadius>4.5</CutOutRadius>
       <CutOutOffset>1.2</CutOutOffset>
-      
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>300</PCU>
+      <PCU>300</PCU>
     </Definition>
 
-		<!--Small Ship Tier 3 Drill Definition Start-->
-		
- <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+    <!--Small Ship Tier 3 Drill Definition Start-->
+
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>Small_Drill_Tier3</SubtypeId>
@@ -176,9 +177,9 @@
         <Component Subtype="SteelPlate" Count="40" />
         <Component Subtype="Construction" Count="50" />
         <Component Subtype="LargeTube" Count="24" />
-		<Component Subtype="Xenucore" Count="4" />
+        <Component Subtype="Xenucore" Count="4" />
         <Component Subtype="Motor" Count="1" />
-		<Component Subtype="Xenucore" Count="4" />
+        <Component Subtype="Xenucore" Count="4" />
         <Component Subtype="Computer" Count="22" />
         <Component Subtype="SteelPlate" Count="32" />
       </Components>
@@ -218,16 +219,16 @@
       <SensorOffset>1.8</SensorOffset>
       <CutOutRadius>4.3</CutOutRadius>
       <CutOutOffset>1.6</CutOutOffset>
-      
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>560</PCU>
+      <PCU>560</PCU>
     </Definition>
 
-		<!--Small Ship Tier 4 Drill Definition Start-->
-		
- <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+    <!--Small Ship Tier 4 Drill Definition Start-->
+
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>Small_Drill_Tier4</SubtypeId>
@@ -245,9 +246,9 @@
         <Component Subtype="SteelPlate" Count="50" />
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="LargeTube" Count="34" />
-		<Component Subtype="Xenucore" Count="5" />        
-		<Component Subtype="Motor" Count="32" />
-		<Component Subtype="Xenucore" Count="5" />
+        <Component Subtype="Xenucore" Count="5" />
+        <Component Subtype="Motor" Count="32" />
+        <Component Subtype="Xenucore" Count="5" />
         <Component Subtype="Computer" Count="32" />
         <Component Subtype="SteelPlate" Count="42" />
       </Components>
@@ -287,18 +288,18 @@
       <SensorOffset>2.2</SensorOffset>
       <CutOutRadius>6.3</CutOutRadius>
       <CutOutOffset>2</CutOutOffset>
-      
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>930</PCU>
+      <PCU>930</PCU>
     </Definition>
 
-		
-<!--Large Ship Tiered Drills Start.-->
-		
-		<!--Large Ship Tier 1 Drill Definition Start.-->
-		
+
+    <!--Large Ship Tiered Drills Start.-->
+
+    <!--Large Ship Tier 1 Drill Definition Start.-->
+
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
@@ -318,9 +319,9 @@
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="SmallTube" Count="24" />
         <Component Subtype="LargeTube" Count="12" />
-		<Component Subtype="Octocore" Count="4" />
+        <Component Subtype="Octocore" Count="4" />
         <Component Subtype="Motor" Count="25" />
-		<Component Subtype="Octocore" Count="4" />
+        <Component Subtype="Octocore" Count="4" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="SteelPlate" Count="120" />
       </Components>
@@ -370,21 +371,21 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <Center x="0" y="0" z="2" />
-      
+
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <SensorRadius>3.3</SensorRadius>
       <SensorOffset>3</SensorOffset>
       <CutOutRadius>4.7</CutOutRadius>
       <CutOutOffset>2.8</CutOutOffset>
-      
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>240</PCU>
+      <PCU>240</PCU>
     </Definition>
-		
-		<!--Large Ship Tier 2 Drill Definition Start.-->
-		
+
+    <!--Large Ship Tier 2 Drill Definition Start.-->
+
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
@@ -404,9 +405,9 @@
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="SmallTube" Count="44" />
         <Component Subtype="LargeTube" Count="32" />
-		<Component Subtype="Octocore" Count="8" />
+        <Component Subtype="Octocore" Count="8" />
         <Component Subtype="Motor" Count="25" />
-		<Component Subtype="Octocore" Count="8" />
+        <Component Subtype="Octocore" Count="8" />
         <Component Subtype="Computer" Count="25" />
         <Component Subtype="SteelPlate" Count="140" />
       </Components>
@@ -448,16 +449,16 @@
       <SensorOffset>2.8</SensorOffset>
       <CutOutRadius>6.2</CutOutRadius>
       <CutOutOffset>2.6</CutOutOffset>
-	  
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  
-	  <PCU>300</PCU>
+
+      <PCU>300</PCU>
     </Definition>
-		
-		<!--Large Ship Tier 3 Drill Definition Start.-->
-		
+
+    <!--Large Ship Tier 3 Drill Definition Start.-->
+
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
@@ -477,9 +478,9 @@
         <Component Subtype="Construction" Count="80" />
         <Component Subtype="SmallTube" Count="64" />
         <Component Subtype="LargeTube" Count="52" />
-		<Component Subtype="Octocore" Count="10" />
+        <Component Subtype="Octocore" Count="10" />
         <Component Subtype="Motor" Count="25" />
-		<Component Subtype="Octocore" Count="10" />
+        <Component Subtype="Octocore" Count="10" />
         <Component Subtype="Computer" Count="45" />
         <Component Subtype="SteelPlate" Count="160" />
       </Components>
@@ -521,16 +522,16 @@
       <SensorOffset>3.8</SensorOffset>
       <CutOutRadius>7.6</CutOutRadius>
       <CutOutOffset>3.6</CutOutOffset>
-	  
-	  
+
+
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>560</PCU>
+      <PCU>560</PCU>
     </Definition>
-		
-		<!--Large Ship Tier 4 Drill Definition Start.-->
-		
+
+    <!--Large Ship Tier 4 Drill Definition Start.-->
+
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
@@ -550,31 +551,31 @@
         <Component Subtype="Construction" Count="220" />
         <Component Subtype="SmallTube" Count="400" />
         <Component Subtype="LargeTube" Count="100" />
-		<Component Subtype="Xenucore" Count="10">
-	    <DeconstructId>
+        <Component Subtype="Xenucore" Count="10">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Uranium</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Motor" Count="34" />
-		<Component Subtype="Xenucore" Count="10">
-	    <DeconstructId>
+        <Component Subtype="Xenucore" Count="10">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Uranium</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Computer" Count="200" />
         <Component Subtype="SteelPlate" Count="700" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-		<MountPoint Side="Back" StartX="2.01" StartY="1.01" EndX="2.98" EndY="1.98" />
-		<MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-		<MountPoint Side="Left" StartX="3.01" StartY="1.01" EndX="4.00" EndY="1.99" />
-		<MountPoint Side="Right" StartX="0.00" StartY="1.01" EndX="0.99" EndY="1.99" />
-		<MountPoint Side="Bottom" StartX="1.01" StartY="3.01" EndX="1.98" EndY="4.00" />
-		<MountPoint Side="Top" StartX="1.01" StartY="0.00" EndX="1.98" EndY="0.99" />
-		<MountPoint Side="Back" StartX="0.01" StartY="1.01" EndX="0.99" EndY="1.98" Default="true"/>
+        <MountPoint Side="Back" StartX="2.01" StartY="1.01" EndX="2.98" EndY="1.98" />
+        <MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="3.01" StartY="1.01" EndX="4.00" EndY="1.99" />
+        <MountPoint Side="Right" StartX="0.00" StartY="1.01" EndX="0.99" EndY="1.99" />
+        <MountPoint Side="Bottom" StartX="1.01" StartY="3.01" EndX="1.98" EndY="4.00" />
+        <MountPoint Side="Top" StartX="1.01" StartY="0.00" EndX="1.98" EndY="0.99" />
+        <MountPoint Side="Back" StartX="0.01" StartY="1.01" EndX="0.99" EndY="1.98" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\T4MegaDrill_Constr1.mwm" />
@@ -604,14 +605,14 @@
       <SensorRadius>7.4</SensorRadius>
       <SensorOffset>4.8</SensorOffset>
       <CutOutRadius>9.4</CutOutRadius>
-      <CutOutOffset>4.6</CutOutOffset>      
+      <CutOutOffset>4.6</CutOutOffset>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <PCU>930</PCU>
-    </Definition>	
+      <PCU>930</PCU>
+    </Definition>
 
-<!-- Begin welder/grinders -->
+    <!-- Begin welder/grinders -->
 
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
@@ -665,17 +666,17 @@
       <BlockPairName>TieredShipWelder</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-	  <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <Public>true</Public>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <SensorRadius>3.6</SensorRadius>
-	  <SensorOffset>1.6</SensorOffset>
-	  <PCU>160</PCU>
+      <SensorRadius>3.6</SensorRadius>
+      <SensorOffset>1.6</SensorOffset>
+      <PCU>160</PCU>
     </Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>BaseGrinderLB</SubtypeId>
@@ -725,7 +726,7 @@
         <MountPoint Side="Back" StartX="0.08" StartY="0.20" EndX="0.92" EndY="0.80" />
       </MountPoints>
       <BlockPairName>TieredShipGrinder</BlockPairName>
-	  <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <Flare>NoFlare</Flare>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -733,9 +734,9 @@
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <SensorRadius>3.6</SensorRadius>
-	  <SensorOffset>1.6</SensorOffset>
-	  <PCU>120</PCU>
+      <SensorRadius>3.6</SensorRadius>
+      <SensorOffset>1.6</SensorOffset>
+      <PCU>120</PCU>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
@@ -788,7 +789,7 @@
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BlockPairName>TieredShipGrinder</BlockPairName>
-	  <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <Flare>NoFlare</Flare>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -796,9 +797,9 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
-	  <SensorRadius>1.6</SensorRadius>
-	  <SensorOffset>1.0</SensorOffset>
-	  <PCU>120</PCU>
+      <SensorRadius>1.6</SensorRadius>
+      <SensorOffset>1.0</SensorOffset>
+      <PCU>120</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
@@ -840,17 +841,17 @@
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
-	  <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <SensorRadius>1.6</SensorRadius>
-	  <SensorOffset>1.0</SensorOffset>
-	  <PCU>160</PCU>
+      <SensorRadius>1.6</SensorRadius>
+      <SensorOffset>1.0</SensorOffset>
+      <PCU>160</PCU>
     </Definition>
-<!-- End Tier Ship Tools -->
-<!-- Tiered Upgrade Chips Small Block -->
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <!-- End Tier Ship Tools -->
+    <!-- Tiered Upgrade Chips Small Block -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>UpgradeChipT1</SubtypeId>
@@ -865,12 +866,12 @@
       <Components>
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="Computer" Count="1" />
-		<Component Subtype="Octocore" Count="1">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="1">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="4" />
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
@@ -895,10 +896,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>UpgradeChipT2</SubtypeId>
@@ -913,12 +914,12 @@
       <Components>
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="Computer" Count="5" />
-		<Component Subtype="Octocore" Count="2">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="2">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="4" />
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
@@ -943,10 +944,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>UpgradeChipT3</SubtypeId>
@@ -961,12 +962,12 @@
       <Components>
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="Computer" Count="10" />
-		<Component Subtype="Octocore" Count="3">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="3">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="4" />
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
@@ -991,10 +992,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>UpgradeChipT4</SubtypeId>
@@ -1009,12 +1010,12 @@
       <Components>
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="Computer" Count="20" />
-		<Component Subtype="Xenucore" Count="4">
-	    <DeconstructId>
+        <Component Subtype="Xenucore" Count="4">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="4" />
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
@@ -1039,11 +1040,11 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-<!-- Tiered Upgrade Chips Large Block -->
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <!-- Tiered Upgrade Chips Large Block -->
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LBUpgradeChipT1</SubtypeId>
@@ -1058,12 +1059,12 @@
       <Components>
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="Computer" Count="10" />
-		<Component Subtype="Octocore" Count="1">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="1">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="10" />
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
@@ -1088,10 +1089,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LBUpgradeChipT2</SubtypeId>
@@ -1106,12 +1107,12 @@
       <Components>
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="Computer" Count="10" />
-		<Component Subtype="Octocore" Count="2">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="2">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="10" />
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
@@ -1136,10 +1137,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LBUpgradeChipT3</SubtypeId>
@@ -1154,12 +1155,12 @@
       <Components>
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="Computer" Count="10" />
-		<Component Subtype="Octocore" Count="3">
-	    <DeconstructId>
+        <Component Subtype="Octocore" Count="3">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="10" />
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
@@ -1184,10 +1185,10 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
-	<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LBUpgradeChipT4</SubtypeId>
@@ -1202,12 +1203,12 @@
       <Components>
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="Computer" Count="10" />
-		<Component Subtype="Xenucore" Count="4">
-	    <DeconstructId>
+        <Component Subtype="Xenucore" Count="4">
+          <DeconstructId>
             <TypeId>Component</TypeId>
             <SubtypeId>Computer</SubtypeId>
-         </DeconstructId>
-		</Component>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="10" />
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
@@ -1232,13 +1233,13 @@
       <PrimarySound>BlockModuleEfficiency</PrimarySound>
       <DamageEffectId>214</DamageEffectId>
       <DamagedSound>ParticleElectrical</DamagedSound>
-	  <GuiVisible>true</GuiVisible>
-	  <PCU>5</PCU>
+      <GuiVisible>true</GuiVisible>
+      <PCU>5</PCU>
     </Definition>
 
-<!-- Tiered Ore Detectors -->
-	<!--Large Ore Detector Blocks-->
-<!-- Mothballed till solution found	for the excessive lags caused by these
+    <!-- Tiered Ore Detectors -->
+    <!--Large Ore Detector Blocks-->
+    <!-- Mothballed till solution found	for the excessive lags caused by these
     <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
@@ -1452,8 +1453,8 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
     </Definition>
 	-->
-	<!-- Small Ore Detector Blocks -->
-<!-- Moth-balled till a solution is obtained 
+    <!-- Small Ore Detector Blocks -->
+    <!-- Moth-balled till a solution is obtained 
 
 
     <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
@@ -1653,9 +1654,9 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
     </Definition>
 	-->
-</CubeBlocks>
- <BlockPositions>
-      <BlockPosition>
+  </CubeBlocks>
+  <BlockPositions>
+    <BlockPosition>
       <Name>Tier_1_Drill</Name>
       <Position>
         <X>0</X>
@@ -1669,47 +1670,47 @@
         <Y>24</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>TieredShipGrinder</Name>
       <Position>
         <X>2</X>
         <Y>24</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>UpgradeChipT1</Name>
       <Position>
         <X>0</X>
         <Y>23</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>UpgradeChipT2</Name>
       <Position>
         <X>1</X>
         <Y>23</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>UpgradeChipT3</Name>
       <Position>
         <X>2</X>
         <Y>23</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>UpgradeChipT4</Name>
       <Position>
         <X>3</X>
         <Y>23</Y>
       </Position>
     </BlockPosition>
-      <BlockPosition>
+    <BlockPosition>
       <Name>Tier_1_Ore_Detector</Name>
       <Position>
         <X>1</X>
         <Y>24</Y>
       </Position>
     </BlockPosition>
- </BlockPositions>
+  </BlockPositions>
 </Definitions>
