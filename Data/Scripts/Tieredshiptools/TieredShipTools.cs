@@ -137,15 +137,10 @@ public abstract class UpgradeableShipTool : MyGameLogicComponent
 
             //Because of TopMostEntites, every E is a grid
             foreach (IMyEntity e in potentialGrids)
-                if (e is IMyCubeGrid && e.Physics != null)
-                    
+                if (e is IMyCubeGrid && e.Physics != null) {
                     Action(m_speedMultiplier - 1, weldSphere, (IMyCubeGrid)e, (IMyCubeBlock)Entity); //speedMultiplier-1 because vanilla has already taken care of the 1
+                }
         }
-    }
-
-    private void Action(float v, BoundingSphereD weldSphere, IMyCubeGrid e, IMyCubeBlock entity)
-    {
-        throw new NotImplementedException();
     }
 
     public override void UpdateAfterSimulation()
