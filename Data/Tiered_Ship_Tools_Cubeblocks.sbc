@@ -664,6 +664,7 @@
         <MountPoint Side="Back" StartX="0.08" StartY="0.20" EndX="0.92" EndY="0.80" />
       </MountPoints>
       <BlockPairName>TieredShipWelder</BlockPairName>
+	  <Description>A standard welder that is capable of being upgraded with the upgrade chips, place the chips on the chip slots on the side.</Description>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <EmissiveColorPreset>Welder</EmissiveColorPreset>
@@ -726,6 +727,7 @@
         <MountPoint Side="Back" StartX="0.08" StartY="0.20" EndX="0.92" EndY="0.80" />
       </MountPoints>
       <BlockPairName>TieredShipGrinder</BlockPairName>
+	  <Description>A standard grinder that is capable of being upgraded with the upgrade chips, place the chips on the chip slots on the side.</Description>
       <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <Flare>NoFlare</Flare>
       <MirroringZ>X</MirroringZ>
@@ -789,6 +791,7 @@
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BlockPairName>TieredShipGrinder</BlockPairName>
+	  <Description>A standard grinder that is capable of being upgraded with the upgrade chips, place the chips on the chip slots on the side.</Description>
       <EmissiveColorPreset>Welder</EmissiveColorPreset>
       <Flare>NoFlare</Flare>
       <MirroringZ>X</MirroringZ>
@@ -838,6 +841,7 @@
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BlockPairName>TieredShipWelder</BlockPairName>
+	  <Description>A standard welder that is capable of being upgraded with the upgrade chips, place the chips on the chip slots on the side.</Description>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -883,6 +887,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\UpgradeChip_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT1</BlockPairName>
+	  <Description>This is Tier 1 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -931,6 +936,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\UpgradeChip_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT2</BlockPairName>
+	  <Description>This is Tier 2 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -979,6 +985,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\UpgradeChip_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT3</BlockPairName>
+	  <Description>This is Tier 3 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1027,6 +1034,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\UpgradeChip_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT4</BlockPairName>
+	  <Description>This is Tier 4 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1076,6 +1084,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Large\LBUpgradeChipT1_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT1</BlockPairName>
+	  <Description>This is Tier 1 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1124,6 +1133,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Large\LBUpgradeChipT1_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT2</BlockPairName>
+	  <Description>This is Tier 2 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1172,6 +1182,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Large\LBUpgradeChipT1_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT3</BlockPairName>
+	  <Description>This is Tier 3 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1220,6 +1231,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Large\LBUpgradeChipT1_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT4</BlockPairName>
+	  <Description>This is Tier 4 upgrade chip for welders and grinders that upgrades speed.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
