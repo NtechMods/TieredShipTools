@@ -13,9 +13,8 @@
         <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
         <Item Amount="0.6" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.16" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="0.84" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount=".01" TypeId="Ingot" SubtypeId="Uranium" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Octocore" />
       <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>

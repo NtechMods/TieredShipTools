@@ -1,6 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <!-- Begin Research Blocks and Groups -->
+ <ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier1" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier2" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier3" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier4" />
+      <UnlockedByGroups>
+        <GroupSubtype>NtechShipToolsTier3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderLB" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderSB" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_ShipWelder" Subtype="BaseWelderLB" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_ShipWelder" Subtype="BaseWelderSB" />
+      <UnlockedByGroups>
+        <GroupSubtype>16</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>BaseToolSet</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT1" />
+      <UnlockedByGroups>
+        <GroupSubtype>BaseToolSet</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT2" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT3" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT4" />
+      <UnlockedByGroups>
+        <GroupSubtype>UpgradeChipsT3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+  </ResearchBlocks>
+ 
+ 
+  <ResearchGroups>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechShipToolsTier1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier1" />
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier1" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechShipToolsTier2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier2" />
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier2" />
+	  </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="NtechShipToolsTier3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier3" />
+        <BlockId Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier3" />
+	  </Members>
+    </ResearchGroup>
+	
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="BaseToolSet" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderLB" />
+        <BlockId Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderSB" />
+        <BlockId Type="MyObjectBuilder_ShipWelder" Subtype="BaseWelderLB" />
+        <BlockId Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderSB" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="UpgradeChipsT1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT1" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT1" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="UpgradeChipsT2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT2" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT2" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="UpgradeChipsT3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT3" />
+        <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT3" />
+      </Members>
+    </ResearchGroup>
+   </ResearchGroups>
   <CubeBlocks>
 
     <!--Small Ship Tiered Drills Start.-->
@@ -858,7 +1038,7 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>UpgradeChipT1</SubtypeId>
+        <SubtypeId>SBUpgradeChipT1</SubtypeId>
       </Id>
       <DisplayName>Upgrade Chip Tier 1</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\UpgradeChipT1Icon.dds</Icon>
@@ -907,7 +1087,7 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>UpgradeChipT2</SubtypeId>
+        <SubtypeId>SBUpgradeChipT2</SubtypeId>
       </Id>
       <DisplayName>Upgrade Chip Tier 2</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\UpgradeChipT2Icon.dds</Icon>
@@ -956,7 +1136,7 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>UpgradeChipT3</SubtypeId>
+        <SubtypeId>SBUpgradeChipT3</SubtypeId>
       </Id>
       <DisplayName>Upgrade Chip Tier 3</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\UpgradeChipT3Icon.dds</Icon>
@@ -1005,7 +1185,7 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>UpgradeChipT4</SubtypeId>
+        <SubtypeId>SBUpgradeChipT4</SubtypeId>
       </Id>
       <DisplayName>Upgrade Chip Tier 4</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\UpgradeChipT4Icon.dds</Icon>
