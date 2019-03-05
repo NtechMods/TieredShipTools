@@ -17,7 +17,7 @@
         <Item Amount="0.84" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Octocore" />
-      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
