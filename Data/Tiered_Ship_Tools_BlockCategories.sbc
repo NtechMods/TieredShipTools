@@ -52,20 +52,12 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId />
       </Id>
-      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
-      <Name>ShipWeaponsTools</Name>
+      <DisplayName>ShipTools</DisplayName>
+      <Name>ShipTools</Name>
       <SearchBlocks>false</SearchBlocks>
       <IsShipCategory>true</IsShipCategory>
       <IsBlockCategory>false</IsBlockCategory>
       <ItemIds>
-        <string>Drill/Small_Drill_Tier1</string>
-        <string>Drill/Small_Drill_Tier2</string>
-        <string>Drill/Small_Drill_Tier3</string>
-        <string>Drill/Small_Drill_Tier4</string>
-        <string>Drill/Large_Drill_Tier1</string>
-        <string>Drill/Large_Drill_Tier2</string>
-        <string>Drill/Large_Drill_Tier3</string>
-        <string>Drill/Large_Drill_Tier4</string>
         <string>ShipWelder/BaseWelderLB</string>
         <string>ShipGrinder/BaseGrinderLB</string>
         <string>ShipWelder/BaseWelderSB</string>
