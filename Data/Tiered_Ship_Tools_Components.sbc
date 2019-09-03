@@ -17,6 +17,10 @@
       <Mass>10</Mass>
       <Volume>8</Volume>
       <Model>Models\Components\Octocore.mwm</Model>
+            <MinimalPricePerUnit>1000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>1</DropProbability>
     </Component>
@@ -35,6 +39,10 @@
       <Mass>10</Mass>
       <Volume>8</Volume>
       <Model>Models\Components\Xenucore.mwm</Model>
+            <MinimalPricePerUnit>10000000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>48</MaximumOfferAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
       <MaxIntegrity>100</MaxIntegrity>
       <DropProbability>1</DropProbability>
     </Component>
