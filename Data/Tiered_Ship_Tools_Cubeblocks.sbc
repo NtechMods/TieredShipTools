@@ -181,6 +181,288 @@
       </Members>
     </ResearchGroup>
    </ResearchGroups>
+   <EntityContainers>   
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Small_Drill_Tier1</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Small_Drill_Tier1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Small_Drill_Tier2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Small_Drill_Tier2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Small_Drill_Tier3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Small_Drill_Tier3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Small_Drill_Tier4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Small_Drill_Tier4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container> 
+		
+		
+		
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Large_Drill_Tier1</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Large_Drill_Tier1" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Large_Drill_Tier2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Large_Drill_Tier2" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Large_Drill_Tier3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Large_Drill_Tier3" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Drill</TypeId>
+                <SubtypeId>Large_Drill_Tier4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="Large_Drill_Tier4" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+		
+		
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>BaseGrinderLB</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="BaseGrinderLB" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>ShipGrinder</TypeId>
+                <SubtypeId>BaseGrinderSB</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="BaseGrinderSB" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+    </EntityContainers>
+	
+	
+    <EntityComponents>   
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Small_Drill_Tier1</SubtypeId>
+            </Id>
+            <Size x="1.5" y="1.5" z="1.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Small_Drill_Tier2</SubtypeId>
+            </Id>
+            <Size x="2.5" y="2.5" z="2.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Small_Drill_Tier3</SubtypeId>
+            </Id>
+            <Size x="3.5" y="3.5" z="3.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Small_Drill_Tier4</SubtypeId>
+            </Id>
+            <Size x="4.5" y="4.5" z="4.5" />
+        </EntityComponent>
+		
+		
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Large_Drill_Tier1</SubtypeId>
+            </Id>
+            <Size x="5.5" y="5.5" z="5.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Large_Drill_Tier2</SubtypeId>
+            </Id>
+            <Size x="6.5" y="6.5" z="6.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Large_Drill_Tier3</SubtypeId>
+            </Id>
+            <Size x="7.5" y="7.5" z="7.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>Large_Drill_Tier4</SubtypeId>
+            </Id>
+            <Size x="8.5" y="8.5" z="8.5" />
+        </EntityComponent>
+		
+		
+		
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>BaseGrinderLB</SubtypeId>
+            </Id>
+            <Size x="4.5" y="4.5" z="4.5" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>BaseGrinderSB</SubtypeId>
+            </Id>
+            <Size x="4.5" y="4.5" z="4.5" />
+        </EntityComponent>
+    </EntityComponents>   
+
+
+
+
+<!--Block Groups -->
+    <BlockVariantGroups>
+
+        <!-- Drills -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TieredShipDrillGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\TieredShipDrill.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TieredShipTools</DisplayName>
+            <Description>Increase the mining size with tiered drills.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier1" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier1" />
+				
+                <Block Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier2" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier2" />				
+				
+                <Block Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier3" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier3" />				
+				
+                <Block Type="MyObjectBuilder_Drill" Subtype="Small_Drill_Tier4" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="Large_Drill_Tier4" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TieredShipWelderGrinderGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\BaseUpgradeGrinder.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WelderGrinder</DisplayName>
+            <Description>Upgrade the welder and grinder with upgrade chips.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderLB" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="BaseGrinderSB" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="BaseWelderLB" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="BaseWelderSB" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="UpgradeChipGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeChipT1Icon.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_UpgradeChip</DisplayName>
+            <Description>Upgrade chips for the welder and grinder.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT1" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT1" />
+				
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT2" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT2" />			
+				
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT3" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT3" />				
+				
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="SBUpgradeChipT4" />
+                <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LBUpgradeChipT4" />
+				
+            </Blocks>
+        </BlockVariantGroup>
+        
+  </BlockVariantGroups>
+
+<CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ntech</DisplayName>
+      <Name>Ntech</Name>
+      <ItemIds>
+		<string>SBUpgradeChipT1</string>
+		<string>SBUpgradeChipT2</string>
+		<string>SBUpgradeChipT3</string>
+		<string>SBUpgradeChipT4</string>
+		
+		<string>LBUpgradeChipT1</string>
+        <string>LBUpgradeChipT2</string>
+		<string>LBUpgradeChipT3</string>
+		<string>LBUpgradeChipT4</string>
+		
+		<string>Small_Drill_Tier1</string>
+		<string>Small_Drill_Tier2</string>
+		<string>Small_Drill_Tier3</string>
+		<string>Small_Drill_Tier4</string>
+		
+		<string>Large_Drill_Tier1</string>
+        <string>Large_Drill_Tier2</string>
+		<string>Large_Drill_Tier3</string>
+		<string>Large_Drill_Tier4</string>
+		
+		<string>BaseGrinderLB</string>
+        <string>BaseGrinderSB</string>
+		<string>BaseWelderLB</string>
+		<string>BaseWelderSB</string>
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+   
   <CubeBlocks>
 
     <!--Small Ship Tiered Drills Start.-->
@@ -223,20 +505,6 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DrillerConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Small_Drill_Tier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Small_Drill_Tier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Small_Drill_Tier4</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -490,6 +758,7 @@
       <Icon>Textures\GUI\Icons\Cubes\TieredShipDrill.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
+	  <Description>Tiered drills that increase in mining size per tier.</Description>
       <Size x="1" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\drill.mwm</Model>
@@ -518,20 +787,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DrillConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Large_Drill_Tier2</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Large_Drill_Tier3</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Drill</TypeId>
-          <SubtypeId>Large_Drill_Tier4</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -1264,7 +1519,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Large\LBUpgradeChipT1_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>UpgradeChipT1</BlockPairName>
-	  <Description>This is Tier 1 upgrade chip for welders and grinders that upgrades speed.</Description>
+	  <Description>Tiered upgrade chip for increasing speed on base welders and grinders.</Description>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1851,57 +2106,22 @@
     <BlockPosition>
       <Name>Tier_1_Drill</Name>
       <Position>
-        <X>0</X>
-        <Y>24</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>TieredShipWelder</Name>
-      <Position>
-        <X>3</X>
-        <Y>24</Y>
+        <X>7</X>
+        <Y>9</Y>
       </Position>
     </BlockPosition>
     <BlockPosition>
       <Name>TieredShipGrinder</Name>
       <Position>
-        <X>2</X>
-        <Y>24</Y>
+        <X>8</X>
+        <Y>9</Y>
       </Position>
     </BlockPosition>
     <BlockPosition>
       <Name>UpgradeChipT1</Name>
       <Position>
-        <X>0</X>
-        <Y>23</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>UpgradeChipT2</Name>
-      <Position>
-        <X>1</X>
-        <Y>23</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>UpgradeChipT3</Name>
-      <Position>
-        <X>2</X>
-        <Y>23</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>UpgradeChipT4</Name>
-      <Position>
-        <X>3</X>
-        <Y>23</Y>
-      </Position>
-    </BlockPosition>
-    <BlockPosition>
-      <Name>Tier_1_Ore_Detector</Name>
-      <Position>
-        <X>1</X>
-        <Y>24</Y>
+        <X>9</X>
+        <Y>9</Y>
       </Position>
     </BlockPosition>
   </BlockPositions>
