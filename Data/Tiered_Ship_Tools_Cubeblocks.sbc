@@ -124,6 +124,57 @@
 				<GroupSubtype>UpgradeChipsT3</GroupSubtype>
 			</UnlockedByGroups>
 		</ResearchBlock>
+		
+		
+		
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="Small_OreDetector_Tier1" />
+			<UnlockedByGroups>
+				<GroupSubtype>16</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Tier1" />
+			<UnlockedByGroups>
+				<GroupSubtype>16</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="Small_OreDetector_Tier2" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Tier2" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="Small_OreDetector_Tier3" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier2</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Tier3" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier2</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="Small_OreDetector_Tier4" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier3</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Tier4" />
+			<UnlockedByGroups>
+				<GroupSubtype>NtechShipToolsTier3</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
 	</ResearchBlocks>
 
 
